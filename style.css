@@ -1,0 +1,74 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 3%;
+  margin-left:10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('bg.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  width: 50em;
+  flex-direction: column;
+  background-color: #FFBF00;
+  padding: 5%;
+  border-radius: 30px;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Darumadrop One', cursive;
+  font-size: 30px;
+  padding-bottom: 30px;
+  opacity: 1.0;
+}
+
+
+.smiley {
+  object-fit: cover;
+  width: 20%;
+  height: 20%;
+  margin: auto; 
+}
+
+p{
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  text-align: center;
+  color: black;
+  word-wrap: break-word;
+  line-height: 1.3em;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+button{
+  display: block;
+  width: 12em;
+  margin-top: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 0.4em;
+  padding: 0.2em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Wix Madefor Text', sans-serif;
+}
