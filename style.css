@@ -4,47 +4,46 @@
   box-sizing: border-box;
 }
 
+.content {
+  display: flex;
+  margin-left: 10rem;
+}
+
 body {
-  margin-top: 3%;
-  margin-left:10%;
+  margin-top: 11%;
+  margin-left:17%;
   margin-right: 10%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: white;
 
-  background-image: url('bg.png');
-  background-size: cover;
-  background-repeat:no-repeat;
 }
 
 .wrapper {
   display: flex;
-  width: 50em;
+  width: 30rem;
   flex-direction: column;
-  background-color: #FFBF00;
+  background-color: #FCE205;
   padding: 5%;
-  border-radius: 30px;
-  align-items: center;
+  border-radius: 1rem;
+  align-items: center;;
 }
 
 h2 {
-  font-family: 'Darumadrop One', cursive;
-  font-size: 30px;
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  font-size: 2.5rem;
   padding-bottom: 30px;
   opacity: 1.0;
 }
 
-
-.smiley {
-  object-fit: cover;
-  width: 20%;
-  height: 20%;
-  margin: auto; 
+img {
+  height: 20vw;
 }
 
 p{
   margin-top: 1.5em;
   font-size: 1.2em;
+  font-family: 'Alegreya', serif;
   text-align: center;
   color: black;
   word-wrap: break-word;
@@ -59,16 +58,15 @@ p{
 
 button{
   display: block;
+  position: relative;
+  margin-top: 10%;
   width: 12em;
-  margin-top: 2em;
   background-color: black;
   color: white;
   border-radius: 0.4em;
   padding: 0.2em;
   font-size: 1.2em;
   cursor: pointer;
-}
+  font-family: 'Alegreya', serif;
 
-p {
-  font-family: 'Wix Madefor Text', sans-serif;
 }
